@@ -1,0 +1,14 @@
+$.stickToMe({
+  fadespeed: 400,
+  trigger: ['top'],
+  maxtime : 0,
+  mintime : 0,
+  delay: 0,
+  interval: 0,
+  maxamount : 0,
+  cookie : false,
+  bgclickclose : true,
+  escclose : true,
+  onleave : function (e) {},
+  disableleftscroll : true  // chrome disable   
+});
